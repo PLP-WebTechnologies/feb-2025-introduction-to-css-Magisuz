@@ -1,0 +1,41 @@
+/* CSS Document */
+#google {
+    color: rgb(14, 19, 7);
+    text-decoration: none;
+    font-weight: bold;
+}
+#google:hover {
+    color: white;
+    text-decoration: underline;
+}
+.footer{
+        color:rgb(11, 15, 7);
+}
+body{
+    /* background-image: url(love.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;  */
+    
+    
+
+    background-color: rgb(230, 173, 225);
+    font-family: comic sans ms;
+    font-size: 15px;
+    
+    
+    img {
+        border: 5px solid #ca1f1f;
+        border-radius: 4px;
+        padding: 5px;
+        width: 250px;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      
+      img:hover {
+        box-shadow: 0 0 2px 1px rgba(180, 31, 31, 0.5); 
+        transform: scaleX(-1);
+      }
+}
+
