@@ -1,4 +1,4 @@
-/* CSS Document */
+CSS Document
 #google {
     color: rgb(14, 19, 7);
     text-decoration: none;
@@ -9,7 +9,10 @@
     text-decoration: underline;
 }
 .footer{
-        color:rgb(11, 15, 7);
+        color: rgb(11, 15, 7);
+        padding: 20px;
+        text-align: center;
+        background-color: #ac47e7;
 }
 body{
     /* background-image: url(love.jpg);
@@ -17,12 +20,15 @@ body{
     background-size: cover;
     background-position: center;  */
     
-    
-
     background-color: rgb(230, 173, 225);
     font-family: comic sans ms;
     font-size: 15px;
     
+    fieldset {
+        padding: 20px;
+        border: 2px solid #ac3131;
+        border-radius: 8px;
+    }
     
     img {
         border: 5px solid #ca1f1f;
@@ -37,5 +43,16 @@ body{
         box-shadow: 0 0 2px 1px rgba(180, 31, 31, 0.5); 
         transform: scaleX(-1);
       }
+      table {
+        border: 1px solid #000;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    
 }
-
